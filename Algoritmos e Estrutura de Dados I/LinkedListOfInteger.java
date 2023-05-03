@@ -3,8 +3,9 @@ public class LinkedListOfInteger {
 
     // Classe interna Node
     private class Node {
-        public Integer element;
-        public Node next;
+        public Integer element; // elemento do nodo
+        public Node next; // referencia para o proximo nodo
+        
 
         public Node(Integer element) {
             this.element = element;
